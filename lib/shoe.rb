@@ -7,7 +7,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS << @brand
+    BRANDS << @brand if @brand not in BRANDS
   end
   
  
