@@ -9,6 +9,7 @@ class Book
   
   def genre
     @genre<<self
+  end
 
   def turn_page
     puts "Flipping the page...wow, you read fast!"
