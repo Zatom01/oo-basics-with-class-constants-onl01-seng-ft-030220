@@ -10,7 +10,7 @@ class Shoe
     
     BRANDS.each do |element|
       if element!=brand
-        BRANDS<< brand
+        BRANDS<< @brand
       end
     end 
   end
