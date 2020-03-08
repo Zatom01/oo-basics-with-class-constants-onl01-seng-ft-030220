@@ -7,7 +7,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    BRANDS<<@brand
+    BRANDS<<@brand if 
     
   #   BRANDS.each do |element|
   #     if element!=brand
